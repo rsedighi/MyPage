@@ -1,0 +1,38 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select {
+		font-size: 15pt;
+	}
+
+
+  .container > .container {
+    width: 100% !important;
+  }
+
+  /* Main */
+
+    .main {
+    }
+
+      .main.style2 {
+      }
+
+        .main.style2 .content {
+          width: 60%;
+        }
+
+          .main.style2.right .content {
+            left: 40%;
+          }
+
+        .main.style2.inactive {
+        }
+
+          .main.style2.inactive .content {
+          }
+
+            .main.style2.inactive.left .content {
+              left: -60%;
+            }
