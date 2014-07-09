@@ -18,6 +18,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'paperclip'
 gem 'postmark-rails', '~> 0.5.2'
+gem 'newrelic_rpm'
+gem 'figaro'
 
 group :development, :test do
   gem 'sqlite3'
